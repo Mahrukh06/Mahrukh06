@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elias Rowe — Photographer</title>
+  <meta name="description" content="Elias Rowe is a documentary and portrait photographer working on editorial, brand and personal commissions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo">Elias Rowe</a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#journal">Journal</a>
+        <a href="#contact" class="btn btn--small">Book a shoot</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__head">
+        <p class="eyebrow reveal">Documentary &amp; portrait photographer — Lisbon / Worldwide</p>
+        <h1 class="hero__title reveal">Quiet light,<br><em>honest</em> moments.</h1>
+        <div class="hero__meta reveal">
+          <p>I make photographs of people and places that feel lived in, for magazines, brands and anyone who wants their story told without the gloss.</p>
+          <div class="hero__actions">
+            <a href="#work" class="btn">View portfolio</a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__image reveal">
+        <img src="https://picsum.photos/seed/rowe-hero/2000/1100" alt="Wide landscape photograph at dusk" loading="eager">
+      </div>
+    </section>
+
+    <!-- Logos / Featured in -->
+    <section class="featured">
+      <div class="container featured__inner">
+        <p class="featured__label">Published in</p>
+        <ul class="featured__list">
+          <li>Kinfolk</li><li>Monocle</li><li>Cereal</li><li>The Gentlewoman</li><li>Apartamento</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Selected work -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 class="section__title">Recent projects</h2>
+          </div>
+          <div class="filters" role="tablist" aria-label="Filter projects">
+            <button class="filter is-active" data-filter="all">All</button>
+            <button class="filter" data-filter="portrait">Portrait</button>
+            <button class="filter" data-filter="editorial">Editorial</button>
+            <button class="filter" data-filter="travel">Travel</button>
+            <button class="filter" data-filter="wedding">Wedding</button>
+          </div>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <figure class="tile tile--tall" data-cat="portrait">
+            <img src="https://picsum.photos/seed/rowe-1/900/1200" alt="Portrait in window light" loading="lazy">
+            <figcaption><span>Portrait</span>Morning Studies</figcaption>
+          </figure>
+          <figure class="tile" data-cat="travel">
+            <img src="https://picsum.photos/seed/rowe-2/1200/900" alt="Coastal village" loading="lazy">
+            <figcaption><span>Travel</span>Atlantic Edge</figcaption>
+          </figure>
+          <figure class="tile" data-cat="editorial">
+            <img src="https://picsum.photos/seed/rowe-3/1200/900" alt="Editorial fashion photograph" loading="lazy">
+            <figcaption><span>Editorial</span>Linen &amp; Stone</figcaption>
+          </figure>
+          <figure class="tile tile--wide" data-cat="wedding">
+            <img src="https://picsum.photos/seed/rowe-4/1600/900" alt="Wedding couple in a field" loading="lazy">
+            <figcaption><span>Wedding</span>Ana &amp; Tomás, Alentejo</figcaption>
+          </figure>
+          <figure class="tile tile--tall" data-cat="editorial">
+            <img src="https://picsum.photos/seed/rowe-5/900/1200" alt="Architecture detail" loading="lazy">
+            <figcaption><span>Editorial</span>Concrete Poems</figcaption>
+          </figure>
+          <figure class="tile" data-cat="travel">
+            <img src="https://picsum.photos/seed/rowe-6/1200/900" alt="Mountain road" loading="lazy">
+            <figcaption><span>Travel</span>Highlands</figcaption>
+          </figure>
+          <figure class="tile" data-cat="portrait">
+            <img src="https://picsum.photos/seed/rowe-7/1200/900" alt="Artist in their studio" loading="lazy">
+            <figcaption><span>Portrait</span>Makers Series</figcaption>
+          </figure>
+          <figure class="tile" data-cat="wedding">
+            <img src="https://picsum.photos/seed/rowe-8/1200/900" alt="Reception table at night" loading="lazy">
+            <figcaption><span>Wedding</span>Long Table, Sintra</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section section--alt" id="about">
+      <div class="container about">
+        <div class="about__image reveal">
+          <img src="https://picsum.photos/seed/rowe-portrait/900/1100" alt="Portrait of Elias Rowe" loading="lazy">
+        </div>
+        <div class="about__text reveal">
+          <p class="eyebrow">About</p>
+          <h2 class="section__title">Twelve years of looking closely.</h2>
+          <p>I started out assisting fashion photographers in London before trading the studio for natural light and real places. Today I split my time between editorial commissions, brand storytelling and a handful of weddings each year.</p>
+          <p>My approach is unhurried. I spend time with people before I photograph them, and I'd rather wait for the right light than add more of it.</p>
+          <dl class="stats">
+            <div><dt>12+</dt><dd>Years shooting</dd></div>
+            <div><dt>340</dt><dd>Commissions</dd></div>
+            <div><dt>28</dt><dd>Countries</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <p class="eyebrow">Services</p>
+          <h2 class="section__title">What I can make for you</h2>
+        </div>
+        <div class="services">
+          <article class="service reveal">
+            <span class="service__num">01</span>
+            <h3>Portraits</h3>
+            <p>Personal, family and headshot sessions on location or in studio, with a relaxed pace and a natural finish.</p>
+            <p class="service__price">From €450</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num">02</span>
+            <h3>Editorial &amp; Brand</h3>
+            <p>Story-led imagery for magazines, hospitality and product brands. Full-day and half-day rates, including licensing.</p>
+            <p class="service__price">From €1,200 / day</p>
+          </article>
+          <article class="service reveal">
+            <span class="service__num">03</span>
+            <h3>Weddings</h3>
+            <p>Documentary coverage for intimate weddings and elopements. Limited to twelve dates a year.</p>
+            <p class="service__price">From €3,200</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section class="section section--dark">
+      <div class="container process">
+        <div>
+          <p class="eyebrow">How it works</p>
+          <h2 class="section__title">From first message to final gallery</h2>
+        </div>
+        <ol class="process__steps">
+          <li><h3>Conversation</h3><p>We talk through the idea, references, locations and timing.</p></li>
+          <li><h3>Planning</h3><p>I put together a shot list, schedule and a clear quote.</p></li>
+          <li><h3>The shoot</h3><p>Calm, collaborative and as unobtrusive as possible.</p></li>
+          <li><h3>Delivery</h3><p>A hand-edited online gallery within two to three weeks.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <p class="eyebrow">Kind words</p>
+          <h2 class="section__title">From clients</h2>
+        </div>
+        <div class="testimonials">
+          <blockquote class="quote reveal">
+            <p>“Elias has a rare way of making people forget the camera is there. The portraits are the most honest we've ever had.”</p>
+            <footer><strong>Sofia Mendes</strong><span>Creative Director, Casa Alma</span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <p>“Every frame from our wedding feels like a memory, not a pose. We still look at the gallery every week.”</p>
+            <footer><strong>Ana &amp; Tomás</strong><span>Married in Alentejo</span></footer>
+          </blockquote>
+          <blockquote class="quote reveal">
+            <p>“Reliable, thoughtful and fast. He delivered a full campaign in a single day and the images carried the whole season.”</p>
+            <footer><strong>James Holt</strong><span>Brand Lead, Northfield</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Journal -->
+    <section class="section section--alt" id="journal">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <p class="eyebrow">Journal</p>
+            <h2 class="section__title">Notes from the field</h2>
+          </div>
+          <a href="#journal" class="link-arrow">All entries →</a>
+        </div>
+        <div class="journal">
+          <article class="post reveal">
+            <img src="https://picsum.photos/seed/rowe-j1/900/600" alt="Film camera on a table" loading="lazy">
+            <p class="post__meta">Process · 6 min read</p>
+            <h3>Why I still shoot a roll of film on every job</h3>
+          </article>
+          <article class="post reveal">
+            <img src="https://picsum.photos/seed/rowe-j2/900/600" alt="Northern landscape" loading="lazy">
+            <p class="post__meta">Travel · 4 min read</p>
+            <h3>Ten days chasing low winter light in the Faroe Islands</h3>
+          </article>
+          <article class="post reveal">
+            <img src="https://picsum.photos/seed/rowe-j3/900/600" alt="Couple walking" loading="lazy">
+            <p class="post__meta">Weddings · 5 min read</p>
+            <h3>What to think about when planning an elopement</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__intro">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section__title">Let's make something together.</h2>
+          <p>Tell me a little about your project and I'll reply within two working days.</p>
+          <ul class="contact__details">
+            <li><span>Email</span><a href="mailto:hello@eliasrowe.com">hello@eliasrowe.com</a></li>
+            <li><span>Phone</span><a href="tel:+351900000000">+351 900 000 000</a></li>
+            <li><span>Studio</span>Rua das Flores 21, Lisbon</li>
+          </ul>
+        </div>
+        <form class="form" id="contactForm">
+          <div class="form__row">
+            <label>Name<input type="text" name="name" required></label>
+            <label>Email<input type="email" name="email" required></label>
+          </div>
+          <label>Type of shoot
+            <select name="type">
+              <option>Portrait</option>
+              <option>Editorial / Brand</option>
+              <option>Wedding</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" rows="5" required></textarea></label>
+          <button type="submit" class="btn">Send enquiry</button>
+          <p class="form__note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__big">Elias Rowe</p>
+      <div class="footer__row">
+        <p>© <span id="year"></span> Elias Rowe Photography</p>
+        <ul class="footer__social">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Behance</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close">×</button>
+    <button class="lightbox__nav lightbox__prev" id="lightboxPrev" aria-label="Previous">‹</button>
+    <img id="lightboxImg" alt="">
+    <button class="lightbox__nav lightbox__next" id="lightboxNext" aria-label="Next">›</button>
+    <p class="lightbox__caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
